@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@500&display=swap');
+
+:root{
+    --colorFondos:  #c2c2c2;
+    --colorPrimario: #001034;
+}
+
+
+body{
+   font-family: 'Poppins', Geneva, Tahoma, sans-serif;
+   margin: 0;
+   font-size: 1.2rem;   
+}
+
+h1, h2{
+   text-align: center;
+}
+
+#subtitle{
+   margin-top: -30px;
+   font-size: 1.5rem;
+}
+
+.logoMovisa{
+   font-size: 80px;
+}
+
+#loginBody{
+   background-color: var(--colorFondos);
+}
+
+.objetosCentrados{
+   width: 100%;
+   justify-content: center;
+   display: flex;
+}
+
+.contenedorForm{
+   margin: 50px 8px;
+   background-color: white;
+   box-shadow: 1px 1px 5px var(--colorPrimario);
+   border-radius: 5px;
+   padding: 10px;
+}
+
+
+.inputs{
+   padding: 10px 0 10px;
+}
+
+.inputGrupo{
+   padding: 10px;
+}
+
+input[type="text"],input[type="password"],input[type="email"]
+{
+   width: 100%;
+   margin-top: 5px;
+   border: none;
+   border-bottom: 2px black solid;
+   padding: 7px;
+   background-color: #fff;
+   margin-left: -5px;
+}
+
+button{
+   background-color: var(--colorPrimario);
+   font-size: 1.1rem;
+   font-weight: bold;
+   color: white;
+   border: none;
+   text-align: center;
+   border-radius: 8px;
+   padding: 10px;
+   transition: background-color 0.3s;
+}
+
+button:hover{
+   cursor: pointer;
+}
+
+.btnForm{
+   text-align: center;
+   width: 100%;
+}
+
+a{
+   color: var(--colorPrimario);
+}
+
+#txtCentrado{
+   width: 100%;
+   text-align: center;
+}

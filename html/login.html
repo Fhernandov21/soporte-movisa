@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVISA soporte</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id = loginBody>
+    <div>
+        <h1>Soporte técnico<br><h2 id="subtitle">MOVISA IT</h2></h1>
+    </div>
+    <div class="objetosCentrados">
+        
+        <div class="contenedorForm">
+            <form id="formLogin" action="login.php" method="post">
+                <h2>Inicio de sesión</h2>
+                <div class="inputs">
+                    <div class="inputGrupo">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Digite su usuario" required>
+                    </div>
+                    <div class="inputGrupo">
+                        <label  for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" placeholder="Digite su contraseña" required>
+                    </div>
+                    <div class="inputGrupo">
+                        <button class="btnForm" type="submit">Ingresar</button>
+                        <p id="txtCentrado">
+                            <a href="#">¿Olvidó su contraseña?</a>
+                        </p>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
